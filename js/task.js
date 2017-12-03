@@ -7,8 +7,6 @@ ele.innerHTML =data;
 
 function load() {
 	location.reload();
-	// var load = document.getElementById('button');
-	// load.innerHTML = myFunction();
 }
 
 function changeColor() {
