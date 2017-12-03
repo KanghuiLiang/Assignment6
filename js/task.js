@@ -13,12 +13,12 @@ function load() {
 
 function changeColor() {
 	var col = document.getElementById("color");
-	col.style.color = "yellow";
+	col.style.backgroundColor = "yellow";
 }
 
 function append() {
     var app = document.getElementById("append");
-    var text = document.createTextNode("Hello World "); 
+    var text = document.createTextNode("Hello ITE220 "); 
     app.appendChild(text);  
 }
 
@@ -32,19 +32,19 @@ function hideOrShow() {
 }
 
 function mouseOver(obj) {
-	obj.innerHTML = "mouse over"
+	obj.innerHTML = "Mouse Over"
 }
 function mouseOut(obj) {
-	obj.innerHTML = "mouse out"
+	obj.innerHTML = "Mouse Out"
 }
 function mouseUp(obj) {
-	obj.innerHTML = "mouse up"
+	obj.innerHTML = "Mouse Up"
 }
 function mouseDown(obj) {
-	obj.innerHTML = "mouse down"
+	obj.innerHTML = "Mouse down"
 }
 
 function doubleClick(obj) {
-	obj.innerHTML = "Double click"
+	obj.innerHTML = " Double Click"
 }
 
