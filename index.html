@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Magic</title>
+</head>
+
+<body>
+    <h2>Task#1: Show width and height; current location, and a reload button.</h2>
+    <p>The width and height should dynamically change when you resize the window.</p>
+    <p><span id="data">width<br>height<br>current location</span></p>
+    <button onclick="load()">Reload page</button>
+    <br>
+    <h2>Task#2: Manipulating DOM</h2>
+    <p>Instructions as described on the buttons</p>
+    <p id="p1">P1 with an id</p>
+    <p id="Hide-show">P2 with an id</p>
+    <p id="color">P3 with an id</p>
+    <p id="append"></p>
+    <button onclick="changeColor()">change to yellow clolor of the third P tag</button>
+    <button onclick="append()">Append Hello World Under P3</button>
+    <button onclick="hideOrShow()">Show/Hide P2</button>
+    <br>
+    <h2>Task#3: Mouse and Click Event</h2>
+    <p>Show "On Mouse Over" when mousing over the link; Show "on Mouse out" when mousing out the link;(do the same for Mouse Down and Mouse Up) when Double Click, Shoe "On Double Click"</p>
+    <a onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onmouseup="mouseUp(this)" onmousedown="mouseDown(this)" ondblclick="doubleClick(this)">Show Event Here</a>
+</body>
+<script src="js/task.js"></script>
+
+</html>
