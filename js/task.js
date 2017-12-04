@@ -22,10 +22,10 @@ function append() {
 
 function hideOrShow() {
 	var e = document.getElementById("Hide-show");
-	if (e.style.visibility == "hidden") {
-		e.style.visibility = "visible";
+	if (e.style.display== "block") {
+		e.style.display = "none";
 	} else {
-		e.style.visibility = "hidden";
+		e.style.display = "block";
 	}
 }
 
